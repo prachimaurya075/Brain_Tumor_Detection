@@ -130,7 +130,7 @@ This helps in fast and accurate tumor classification using deep learning.
 ├── /Training                          
 ├── /Testing                           
 ├── README.md                         
-└── /model_results                     
+                  
 # How to Run
 
 Mount Google Drive (if using Colab):
