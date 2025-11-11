@@ -1,4 +1,4 @@
-# Brain Tumor Detection using Deep Learning (VGG16)
+# Brain Tumor Detection using Deep Learning
 # Project Overview
 
 The Brain Tumor Detection System is a deep learning-based project that classifies MRI brain images into four categories:
@@ -95,6 +95,29 @@ The model shows high precision and recall for most tumor classes, demonstrating 
 3. Model Type: Transfer Learning (VGG16)
 
 4. Performance: Stable loss curve and high classification precision
+
+# MRI Tumor Detection System
+
+After training, the model is saved and later used to analyze new MRI images.
+The system can detect whether a tumor is present and identify its type — Glioma, Meningioma, Pituitary, or No Tumor.
+This helps in fast and accurate tumor classification using deep learning.
+
+🔹Model Saving and Analysis
+
+1. The trained model is saved in .h5 format for future use.
+
+2. The model can analyze a single MRI image and display the prediction result.
+
+3. The prediction result can be visualized along with the input image.
+
+ Example Outputs
+
+1️⃣ Model Saved Successfully
+2️⃣ MRI Image Analysis Result
+<img width="466" height="548" alt="image" src="https://github.com/user-attachments/assets/8827bab5-adf7-4a50-a352-adc2bb77c59a" />
+<img width="495" height="534" alt="image" src="https://github.com/user-attachments/assets/cbcc85d3-b484-4df2-8b2c-43cbf384ffd4" />
+
+
 
 # 📁 Repository Structure
 
