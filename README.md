@@ -100,6 +100,7 @@ The model shows high precision and recall for most tumor classes, demonstrating 
 
 📦 Brain_Tumor_Detection_DL
 │
+
 ├── brain_tumor_detection.ipynb        
 
 ├── /Training                          
@@ -142,7 +143,7 @@ Enhance the accuracy of MRI-based diagnoses
 
 # Acknowledgment
 
-This project was developed as part of a Deep Learning mini-project to explore real-world applications of transfer learning in medical image classification. Special thanks to Kaggle dataset contributors and TensorFlow developers for their tools and resources.   
+This project was developed as part of a Deep Learning mini-project to explore real-world applications of transfer learning in medical image classification. 
 
    
 
