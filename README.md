@@ -21,9 +21,9 @@ This project demonstrates how deep learning can be applied to the medical imagin
 
 2. Data Augmentation – Applying random transformations to improve model generalization
 
-3.Feature Extraction – Using VGG16 pre-trained on ImageNet
+3. Feature Extraction – Using VGG16 pre-trained on ImageNet
 
-4.Model Training – Fine-tuning top layers for brain tumor classification
+4. Model Training – Fine-tuning top layers for brain tumor classification
 
 5. Performance Evaluation – Generating accuracy, loss plots, confusion matrix, and classification report
 
@@ -80,4 +80,70 @@ Training Summary
 
 # Classification Report
 <img width="595" height="266" alt="image" src="https://github.com/user-attachments/assets/8a83dbf0-cba3-449d-8b3a-79ebba5854b0" />
+
+# Confusion Matrix
+
+<img width="221" height="131" alt="image" src="https://github.com/user-attachments/assets/b4d8639c-7eb9-41c7-b7da-1206e4925b2e" />
+
+The model shows high precision and recall for most tumor classes, demonstrating its strong ability to distinguish between tumor types.
+
+# Results Summary
+1. Training Accuracy: 96.19%
+
+2. Validation Accuracy: 92%
+
+3. Model Type: Transfer Learning (VGG16)
+
+4. Performance: Stable loss curve and high classification precision
+
+# 📁 Repository Structure
+
+📦 Brain_Tumor_Detection_DL
+│
+├── brain_tumor_detection.ipynb        
+
+├── /Training                          
+├── /Testing                           
+├── README.md                         
+└── /model_results                     
+# How to Run
+
+Mount Google Drive (if using Colab):
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Run the notebook step-by-step:
+
+1. Load dataset paths
+
+2. Preprocess & augment images
+
+3. Build and train the model
+
+4. Evaluate results
+
+# Generate predictions and visualize metrics:
+
+1. Classification Report
+
+2. Confusion Matrix
+
+3. ROC Curve
+
+# Real-World Impact
+
+This system can be integrated into medical workflows to:
+
+Assist radiologists in detecting brain tumors early
+
+Reduce manual diagnostic time
+
+Enhance the accuracy of MRI-based diagnoses
+
+# Acknowledgment
+
+This project was developed as part of a Deep Learning mini-project to explore real-world applications of transfer learning in medical image classification. Special thanks to Kaggle dataset contributors and TensorFlow developers for their tools and resources.   
+
+   
+
 
