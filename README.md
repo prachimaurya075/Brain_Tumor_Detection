@@ -44,7 +44,7 @@ Optimizer: Adam (learning_rate=0.0001)
 Loss Function: Sparse Categorical Crossentropy
 Metric: Sparse Categorical Accuracy
 
-# 🩺 Dataset Description
+#  Dataset Description
 
 Dataset: Brain Tumor Detection
 Source: Kaggle 
