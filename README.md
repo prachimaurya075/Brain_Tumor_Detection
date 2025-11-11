@@ -112,8 +112,8 @@ This helps in fast and accurate tumor classification using deep learning.
 
  Example Outputs
 
-1️⃣ Model Saved Successfully
-2️⃣ MRI Image Analysis Result
+1. Model Saved Successfully
+2. MRI Image Analysis Result
 
 <img width="466" height="548" alt="image" src="https://github.com/user-attachments/assets/8827bab5-adf7-4a50-a352-adc2bb77c59a" />
 <img width="495" height="534" alt="image" src="https://github.com/user-attachments/assets/cbcc85d3-b484-4df2-8b2c-43cbf384ffd4" />
